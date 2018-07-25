@@ -1,12 +1,12 @@
 import wpf
 
-from GameFieldViewModel import GameFieldViewModel
+from ViewModels.GameFieldViewModel import GameFieldViewModel
 from System.Windows import Application, Window
 
 class WindowBinder(Window):
     def __init__(self, filename, context):
         wpf.LoadComponent(self, filename)
-        DataContext = context
+        self.DataContext = context
         
 class BBTan(Application):
     def OnStartup(self, args):
@@ -17,5 +17,4 @@ class BBTan(Application):
         
 if __name__ == '__main__':
     BBTan().Run()
-    wind = Window()
     

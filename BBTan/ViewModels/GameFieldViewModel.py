@@ -1,5 +1,5 @@
-from ViewModelBase import ViewModelBase
-from Command import Command
+from Helpers.ViewModelBase import ViewModelBase
+from Helpers.Command import Command
 
 class GameFieldViewModel(ViewModelBase):
     """description of class"""
