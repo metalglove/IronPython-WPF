@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BBTan", "BBTan\BBTan.pyproj", "{75A2BE44-05F8-4AD3-B33B-3B5489D13074}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design", "Design\Design.csproj", "{A411D6A1-CC00-4F5D-866F-B5B1FD99B826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{75A2BE44-05F8-4AD3-B33B-3B5489D13074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{75A2BE44-05F8-4AD3-B33B-3B5489D13074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A411D6A1-CC00-4F5D-866F-B5B1FD99B826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A411D6A1-CC00-4F5D-866F-B5B1FD99B826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A411D6A1-CC00-4F5D-866F-B5B1FD99B826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A411D6A1-CC00-4F5D-866F-B5B1FD99B826}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
