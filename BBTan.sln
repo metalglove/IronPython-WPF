@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BBTan", "BBTan\BBTan.pyproj", "{75A2BE44-05F8-4AD3-B33B-3B5489D13074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75A2BE44-05F8-4AD3-B33B-3B5489D13074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A2BE44-05F8-4AD3-B33B-3B5489D13074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FEF92F0-B1BC-44DC-A576-88B9AB2CE00F}
+	EndGlobalSection
+EndGlobal
