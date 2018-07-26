@@ -5,10 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Design"
         mc:Ignorable="d"
-        Title="GameField" Height="450" Width="800">
-    <Grid>
-        <Button Width="100" Height="100" Content="{Binding FirstName}">
-            
-        </Button>
-    </Grid>
+        Title="GameField" Height="600" Width="800">
+    <StackPanel Margin="25">
+        <TextBlock Height="20" Width="500" Text="{Binding Header}" HorizontalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Height="20" Content="Change" Command="{Binding ChangeCommand}"/>
+            <Button Height="20" Content="Shoot" Command="{Binding ShootCommand}"/>
+        </StackPanel>
+        <ItemsControl ItemsSource="{Binding Items}" Background="Green" Height="450" Width="700">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemContainerStyle>
+                <Style TargetType="UserControl">
+                    <Setter Property="Canvas.Left" Value="{Binding Left}"/>
+                    <Setter Property="Canvas.Top" Value="{Binding Top}"/>
+                </Style>
+            </ItemsControl.ItemContainerStyle>
+        </ItemsControl>
+    </StackPanel>
 </Window>

@@ -24,6 +24,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Ball.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BBTan.py" />
     <Compile Include="Commands\__init__.py">
       <SubType>Code</SubType>
@@ -38,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Models\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shooter.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ViewModels\GameFieldViewModel.py">
